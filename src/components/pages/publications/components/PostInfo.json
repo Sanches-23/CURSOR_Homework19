@@ -1,0 +1,15 @@
+{
+  "post": {
+    "author": {
+      "name": "Anakin Skywalker",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfhdf1CazcWlz0EB-5Km3N9mzdIIRpBIb0diapB_s_DrZGenq3xjkRLQ2vo8MbRGmiDbs&usqp=CAU",
+      "nickname": "@dart_vader"
+    },
+    "content": "WTF? Who is Ray? Why she is Skywalker? Luke...?",
+    "image": "https://cdn.mos.cms.futurecdn.net/y4QgDqVjDcyC6WLoD9abQb.jpg",
+    "date": "26 лют.",
+    "comments": "482",
+    "retweets": "146",
+    "likes": "887"
+  }
+}
