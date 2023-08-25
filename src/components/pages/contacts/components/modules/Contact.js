@@ -4,13 +4,18 @@ import ContactStyle from '../styles/Contact.module.css';
 class Contact extends React.Component {
     render() {
         const {
-            contact: {
-                firstName = "NoFirstName",
-                lastName = "NoLastName",
-                phone = "+380000000000",
-                gender = "not specified"
-            }
-        } = this.props || {};
+        //     contact: {
+        //         firstName = "NoFirstName",
+        //         lastName = "NoLastName",
+        //         phone = "+380000000000",
+        //         gender = "not specified"
+        //     }
+        // } = this.props || {};
+            firstName = "NoFirstName",
+            lastName = "NoLastName",
+            phone = "+380000000000",
+            gender = "not specified"
+        } = this.props.contact || {};
 
         const genderName = gender === "male" ? "Ч" : gender === "female" ? "Ж" : "Вертоліт";
 

@@ -11,7 +11,8 @@
     justify-content: center;
     background-color: #576073;
     /*height: 100vh;*/
-    height: 100%;
+    /*height: 100%;*/
+    height: calc(100vh - 53px - 66px);
     margin-top: 50px;
     padding: 10px 50px 30px;
 }

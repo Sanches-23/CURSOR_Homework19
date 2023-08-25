@@ -1,10 +1,15 @@
 import jsonData from './components/PostInfo.json';
 import Base from "./components/base/Base";
+import PublicationsStyle from "./components/styles/Base.module.css";
 
 const PublicationsPage = () => {
   return (
 
-      <Base data={jsonData.post}></Base>
+      <div className={PublicationsStyle.wrapper}>
+        <Base data={jsonData.post}></Base>
+        <Base data={jsonData.post}></Base>
+        <Base data={jsonData.post}></Base>
+      </div>
 
   );
 }

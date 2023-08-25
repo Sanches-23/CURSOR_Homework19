@@ -4,6 +4,7 @@ import ContactsData from "./ContactsData"
 import baseStyle from "../styles/Base.module.css"
 import switchStyle from "../styles/Switch.module.css"
 import inputStyle from "../styles/Input.module.css"
+import {Link} from "react-router-dom";
 
 class Contacts extends React.Component {
     constructor(props) {
@@ -66,7 +67,9 @@ class Contacts extends React.Component {
                 <label className={inputStyle.form__label}>Search contacts</label>
             </div>
             {filteredContacts.map((contact, index) => (
-                <Contact key={index} contact={contact} />
+                <Link to={`${contact.firstName}`} key={index} state={{ contactData: contact }}>
+                    <Contact contact={contact} />
+                </Link>
             ))}
         </div>
     );}

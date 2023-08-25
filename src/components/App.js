@@ -11,6 +11,7 @@ import Photos from "./pages/photos/Photos";
 import PublicationsPage from "./pages/publications/PublicationsPage";
 import ContactsPage from "./pages/contacts/ContactsPage";
 import ErrorPage from "./utils/ErrorPage";
+import ContactLayout from "./pages/contacts/ContactLayout";
 // const router = createBrowserRouter([
 //     {
 //         path: "/",
@@ -36,11 +37,15 @@ function App() {
         <Navbar/>
         <div className={AppStyle.App}>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route index element={<Home />} />
                 <Route path="/publications" element={<PublicationsPage />} />
                 <Route path="/photos" element={<Photos />} />
-                <Route path="/contacts" element={<ContactsPage />}/>
-                <Route path="*" element={<ErrorPage />}  errorElement={<ErrorPage/>} />{/*????????????????????????????/*/}
+
+                <Route path="/contacts">
+                    <Route index element={<ContactsPage/>} />
+                    <Route path=":test" element={<ContactLayout/>} />
+                </Route>
+                <Route path="*" element={<ErrorPage />}  errorElement={<ErrorPage/>} />{/*??????????????/*/}
             </Routes>
         </div>
         <Footer/>
@@ -49,8 +54,3 @@ function App() {
 }
 
 export default App;
-// <div className="ContactsPage">
-//   <header className="ContactsPage-header">
-//     <h1 className={smthStyle.smth}>aAAAa</h1>
-//   </header>
-// </div>
