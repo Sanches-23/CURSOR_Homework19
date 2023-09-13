@@ -10,7 +10,7 @@ import Home from "./pages/home/Home";
 import Photos from "./pages/photos/Photos";
 import PublicationsPage from "./pages/publications/PublicationsPage";
 import ContactsPage from "./pages/contacts/ContactsPage";
-import ErrorPage from "./utils/ErrorPage";
+// import ErrorPage from "./utils/ErrorPage";
 import ContactLayout from "./pages/contacts/ContactLayout";
 // const router = createBrowserRouter([
 //     {
