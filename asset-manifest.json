@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CURSOR_Homework19/static/css/main.abc9a561.css",
-    "main.js": "/CURSOR_Homework19/static/js/main.12dcd6da.js",
+    "main.js": "/CURSOR_Homework19/static/js/main.f6e26b0d.js",
     "static/js/787.1274f2a0.chunk.js": "/CURSOR_Homework19/static/js/787.1274f2a0.chunk.js",
     "static/media/download-svgrepo-com.svg": "/CURSOR_Homework19/static/media/download-svgrepo-com.c2dd5481370c1a98ba9c38dd63326d38.svg",
     "static/media/check-badge.svg": "/CURSOR_Homework19/static/media/check-badge.65ae038867fe391d97184eb00b4f9c61.svg",
@@ -10,11 +10,11 @@
     "static/media/heart-svgrepo-com.svg": "/CURSOR_Homework19/static/media/heart-svgrepo-com.4940041c1ca59254b30323b37ca2fc16.svg",
     "index.html": "/CURSOR_Homework19/index.html",
     "main.abc9a561.css.map": "/CURSOR_Homework19/static/css/main.abc9a561.css.map",
-    "main.12dcd6da.js.map": "/CURSOR_Homework19/static/js/main.12dcd6da.js.map",
+    "main.f6e26b0d.js.map": "/CURSOR_Homework19/static/js/main.f6e26b0d.js.map",
     "787.1274f2a0.chunk.js.map": "/CURSOR_Homework19/static/js/787.1274f2a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abc9a561.css",
-    "static/js/main.12dcd6da.js"
+    "static/js/main.f6e26b0d.js"
   ]
 }
