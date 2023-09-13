@@ -1,32 +1,3 @@
-/*.item {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 70%;*/
-/*    height: 100%;*/
-/*    color: aquamarine;*/
-/*    background-color: rgba(0, 0, 0, 0.23);*/
-/*    padding: 5px;*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(7, 1fr);*/
-/*    grid-template-rows: repeat(3, 1fr);*/
-/*    gap: 5px 5px;*/
-/*}*/
-
-/*.contentElement {*/
-/*    width: 105px;*/
-/*    height: 160px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    background-color: rgba(0, 0, 0, 0.23);*/
-/*    border-color: #ffe000;*/
-/*    border-radius: 10px;*/
-/*    box-shadow: 0 0 10px #ffe000;*/
-/*    padding: 5px;*/
-/*}*/
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -37,7 +8,7 @@
 .item {
     position: relative;
     width: 100%;
-    padding-bottom: 100%; /* Забезпечує пропорційну висоту для кожного елемента */
+    padding-bottom: 100%;
 }
 
 .image {
@@ -49,7 +20,6 @@
     object-fit: cover;
 }
 
-/* Додаткові стилі для тексту або інших ефектів */
 .item::after {
     content: "";
     position: absolute;

@@ -10,8 +10,6 @@
     align-items: center;
     justify-content: center;
     background-color: #576073;
-    /*height: 100vh;*/
-    /*height: 100%;*/
     height: calc(100vh - 53px - 66px);
     margin-top: 50px;
     padding: 10px 50px 30px;
@@ -30,7 +28,6 @@
     position: relative;
     padding: 15px;
     width: 750px;
-    /*height: 700px;*/
     height: calc(100% + 20px);
     box-shadow: 10px 10px 5px 2px black;
     border-radius: 15px;
@@ -41,9 +38,7 @@
     content: "";
     border-radius: 15px;
     background: conic-gradient(greenyellow 25deg, red 70deg, transparent 140deg);
-    /*height: calc(260%);*/
     height: calc(300vh);
-    /*width: calc(260%);*/
     width: calc(100vw);
     position: absolute;
     animation: rotate 2.5s linear infinite;
@@ -76,8 +71,7 @@
 }
 /*///////////////*/
 .content {
-    position: relative; /*для зміни порядку відображення*/
-    /*position: absolute;*/
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,7 +80,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1; /*вищий z-index - вище над стилями*/
+    z-index: 1;
 }
 
 .contentTools {
